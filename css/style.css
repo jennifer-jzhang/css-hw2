@@ -8,7 +8,15 @@ header {
 }
 
 nav {
-    background-color: lightblue;
+    background-color: lightgray;
+    display: inline-block;
+    width: 80%;
+}
+
+nav img {
+    width: 10%;
+    position: relative;
+    top: 20px;
 }
 
 main {
@@ -20,9 +28,20 @@ footer {
     background-color: lightgray;
 }
 
+/* Homework One li styling is commented out.
 li {
     display: inline-block;
     width: 30%;
+}
+*/
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
 }
 
 h1 {
@@ -33,4 +52,22 @@ h1 {
 
 p {
     line-height: 1.5;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-around;
+    align-items: center;
+    row-gap: 10px;
+}
+
+.grid img {
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
